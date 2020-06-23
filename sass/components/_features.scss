@@ -1,0 +1,42 @@
+.features-list,
+.what-we-do-list,
+.our-team-list,
+.regular-clients-list {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+.features-list .item + .item {
+  margin-left: 30px;
+}
+.features-list .item {
+  display: flex;
+  flex-direction: column;
+  width: 278px;
+}
+.features-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+.features-list .title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-list .text {
+  color: $SecondaryTextColor;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}

@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+}
+.site-nav {
+  display: flex;
+  margin-left: 80px;
+}
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+.site-nav .link,
+.link-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $PrimaryTextColor;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: $AccentColor;
+}
+.site-nav .link.current {
+  position: relative;
+  color: $AccentColor;
+}
+.site-nav .link.current::after {
+  position: absolute;
+  content: '';
+  height: 4px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: currentColor;
+  border-radius: 2px;
+}

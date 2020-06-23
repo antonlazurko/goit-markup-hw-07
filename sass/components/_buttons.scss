@@ -1,0 +1,25 @@
+.button.hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  box-sizing: border-box;
+  border: 1px solid $AccentColor;
+  color: $WhiteTextColor;
+  background-color: $AccentColor;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.button.primary {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  color: $WhiteTextColor;
+  background-color: $AccentColor;
+}

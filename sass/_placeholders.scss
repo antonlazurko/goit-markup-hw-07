@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-color: $WhiteTextColor;
+  color: $PrimaryTextColor;
+  font-family: Roboto, serif;
+}
+body {
+  .list-rule {
+    list-style: none;
+  }
+}
+body {
+  .link,
+  a {
+    text-decoration: none;
+  }
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.title {
+  margin: 0px;
+  padding: 0px;
+}
+.button {
+  cursor: pointer;
+}
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: auto;
+}
+.title-margin {
+  margin-bottom: 50px;
+}
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section.no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.section .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
