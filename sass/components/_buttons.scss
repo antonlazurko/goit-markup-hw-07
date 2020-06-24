@@ -23,3 +23,37 @@
   color: $WhiteTextColor;
   background-color: $AccentColor;
 }
+.filtres {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 641px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.filtres .button {
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  font-family: inherit;
+  color: $PrimaryTextColor;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.filtres .button:hover,
+.filtres .button:focus {
+  color: $WhiteTextColor;
+  background-color: $AccentColor;
+}
