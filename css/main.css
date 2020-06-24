@@ -456,6 +456,12 @@ img {
   color: #ffffff;
 }
 
+.contacts .page-logo {
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 1.18;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -874,21 +880,6 @@ img {
   display: none;
 }
 
-.footer-logo {
-  display: block;
-  margin-bottom: 10px;
-  color: #2196f3;
-  font-family: Raleway, serif;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-}
-
-.footer-logo-span {
-  color: #ffffff;
-}
-
 .footer-social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -949,13 +940,13 @@ img {
   color: #ffffff;
 }
 
-.contacts > address {
+.contacts address {
   padding-bottom: 28px;
 }
 
 .contacts .link {
   display: block;
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .mail {
@@ -1009,12 +1000,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social__link:last-child {
+.footer-social .footer-social__link:last-child {
   margin-right: 0px;
 }
 
-.footer-social__link:hover,
-.footer-social__link:focus {
+.footer-social__link:hover, .footer-social__link:focus {
   background-color: #2196f3;
 }
 
@@ -1023,7 +1013,16 @@ img {
   fill: #ffffff;
 }
 
-.subscribe > .forma {
+.subscribe {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.subscribe .forma {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1034,7 +1033,7 @@ img {
   margin-left: 102px;
 }
 
-.subscribe.forma > b {
+.subscribe b {
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
@@ -1052,12 +1051,6 @@ img {
 
 .input-forma {
   margin-right: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.input-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1082,6 +1075,12 @@ img {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0);
+}
+
+.input-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .input-button--submit {
@@ -1116,15 +1115,6 @@ img {
   fill: #ffffff;
   background-color: #2196f3;
   margin-left: 10px;
-}
-
-.subscribe {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .copyright {
