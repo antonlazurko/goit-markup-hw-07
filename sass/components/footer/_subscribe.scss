@@ -1,16 +1,25 @@
-.subscribe > .forma {
-  display: flex;
-  flex-direction: column;
-  margin-left: 102px;
-}
-.subscribe.forma > b {
+.subscribe {
   color: $WhiteTextColor;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  .forma {
+    display: flex;
+    flex-direction: column;
+    margin-left: 102px;
+  }
+  b {
+    color: $WhiteTextColor;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
 }
+
 .forma-field {
   display: flex;
   margin-top: 12px;
@@ -18,46 +27,46 @@
 .input-forma {
   margin-right: 12px;
   display: flex;
+  &--inner {
+    padding: 18px 12px;
+    width: 358px;
+    height: 50px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    color: SecondaryWhiteColor;
+    font-size: 16px;
+    outline: none;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0);
+  }
 }
 .input-button {
   display: flex;
-}
-.input-forma--inner {
-  padding: 18px 12px;
-  width: 358px;
-  height: 50px;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 400;
-  color: SecondaryWhiteColor;
-  font-size: 16px;
-  outline: none;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0);
-}
-.input-button--submit {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 50px;
-  margin-left: 12px;
-  box-sizing: border-box;
-  border: 1px solid $AccentColor;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: 900;
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  background-color: $AccentColor;
-  color: $WhiteTextColor;
+  &--submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    box-sizing: border-box;
+    border: 1px solid $AccentColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 900;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    background-color: $AccentColor;
+    color: $WhiteTextColor;
+  }
 }
 
 .plane {
@@ -66,14 +75,6 @@
   margin-left: 10px;
 }
 
-.subscribe {
-  color: $WhiteTextColor;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
 .copyright {
   padding-top: 18px;
   padding-bottom: 21px;

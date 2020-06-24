@@ -1,4 +1,4 @@
-.header-logo {
+.page-logo {
   display: block;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -9,7 +9,15 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-.header-logo span {
-  color: $PrimaryTextColor;
+  & span {
+    color: $PrimaryTextColor;
+  }
+  .contacts & span {
+    color: $WhiteTextColor;
+  }
+  .contacts & {
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 1.18;
+  }
 }

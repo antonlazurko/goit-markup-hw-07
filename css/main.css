@@ -435,7 +435,7 @@ img {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
 }
 
-.header-logo {
+.page-logo {
   display: block;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -448,8 +448,12 @@ img {
   letter-spacing: 0.03em;
 }
 
-.header-logo span {
+.page-logo span {
   color: #212121;
+}
+
+.contacts .page-logo span {
+  color: #ffffff;
 }
 
 .nav {
@@ -573,7 +577,7 @@ img {
   background-size: cover;
 }
 
-.hero-content {
+.content {
   max-width: 696px;
   height: 200px;
   display: -webkit-box;
@@ -925,8 +929,7 @@ img {
   margin-right: 0px;
 }
 
-.footer-social__link:hover,
-.footer-social__link:focus {
+.footer-social__link:hover, .footer-social__link:focus {
   background-color: #2196f3;
 }
 
@@ -950,14 +953,14 @@ img {
   padding-bottom: 28px;
 }
 
-.mail {
-  display: block;
-  margin-bottom: 10px;
-}
-
 .contacts .link {
   display: block;
   color: #757575;
+}
+
+.mail {
+  display: block;
+  margin-bottom: 10px;
 }
 
 .connect {
